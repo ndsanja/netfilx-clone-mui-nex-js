@@ -35,7 +35,7 @@ const Features = () => {
       {/* tv */}
       <BorderedBottomBox>
         <Container maxWidth="lg" sx={{ py: 6 }}>
-          <Grid container alignItems="center" columnSpacing={12}>
+          <Grid container alignItems="center" columnSpacing={10}>
             <Grid item xs={12} md={6}>
               <Title text="Enjoy on your TV." />
               <Description text="Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more." />
@@ -81,7 +81,7 @@ const Features = () => {
       {/* mobile */}
       <BorderedBottomBox>
         <Container maxWidth="lg" sx={{ py: 6 }}>
-          <Grid container alignItems="center" columnSpacing={12}>
+          <Grid container alignItems="center" columnSpacing={10}>
             <Grid item xs={12} md={6} sx={{ order: { xs: 2, md: 1 } }}>
               <Box sx={{ position: "relative" }}>
                 <Box>
@@ -154,7 +154,7 @@ const Features = () => {
       {/* watch everywere */}
       <BorderedBottomBox>
         <Container maxWidth="lg" sx={{ py: 6 }}>
-          <Grid container alignItems="center" columnSpacing={12}>
+          <Grid container alignItems="center" columnSpacing={10}>
             <Grid item xs={12} md={6}>
               <Title text="Watch everywhere." />
               <Description text="Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV." />
@@ -200,7 +200,7 @@ const Features = () => {
       {/* kids */}
       <BorderedBottomBox>
         <Container maxWidth="lg" sx={{ py: 6 }}>
-          <Grid container alignItems="center" columnSpacing={12}>
+          <Grid container alignItems="center" columnSpacing={10}>
             <Grid item xs={12} md={6}>
               <Title text="Create profiles for kids." />
               <Description text="Send kids on adventures with their favorite characters in a space made just for them—free with your membership." />
