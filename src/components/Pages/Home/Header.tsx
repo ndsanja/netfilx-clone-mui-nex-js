@@ -54,8 +54,51 @@ const Header = () => {
                   },
                 }}
               >
-                <MenuItem value="ID">Bahasa Indonesia</MenuItem>
-                <MenuItem value="EN">English</MenuItem>
+                <MenuItem value="ID">
+                  <Typography
+                    sx={{
+                      display: {
+                        xs: "none",
+                        sm: "inline",
+                      },
+                    }}
+                  >
+                    Indonesia
+                  </Typography>
+                  <Typography
+                    sx={{
+                      display: {
+                        xs: "inline",
+                        sm: "none",
+                      },
+                    }}
+                  >
+                    ID
+                  </Typography>
+                </MenuItem>
+
+                <MenuItem value="EN">
+                  <Typography
+                    sx={{
+                      display: {
+                        xs: "none",
+                        sm: "inline",
+                      },
+                    }}
+                  >
+                    English
+                  </Typography>
+                  <Typography
+                    sx={{
+                      display: {
+                        xs: "inline",
+                        sm: "none",
+                      },
+                    }}
+                  >
+                    EN
+                  </Typography>
+                </MenuItem>
               </Select>
             </Grid>
             <Grid item xs="auto">
