@@ -19,7 +19,10 @@ const Header = () => {
       <AppBar
         sx={{
           backgroundColor: "transparent",
-          padding: "25px 20px",
+          padding: {
+            xs: "10px 0px",
+            md: "25px 20px",
+          },
           position: "absolute",
         }}
         elevation={0}
